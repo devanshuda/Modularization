@@ -7,3 +7,8 @@ output "subnet_address_prefixes" {
 	value = azurerm_subnet.subnet.address_prefixes
 	description = "The value of the address prefixes of the subnet"
 }
+
+output "subnet_id" {
+	value = azurerm_subnet.subnet.id
+	description = "The value of the ID of the subnet"
+}
